@@ -13189,7 +13189,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:11.11.1, react-i18next@npm:^11.8.13":
+"react-i18next@npm:11.11.2":
+  version: 11.11.2
+  resolution: "react-i18next@npm:11.11.2"
+  dependencies:
+    "@babel/runtime": ^7.14.5
+    html-parse-stringify: ^3.0.1
+  peerDependencies:
+    i18next: ">= 19.0.0"
+    react: ">= 16.8.0"
+  checksum: b5f535a8eb99036012b1c64355eebbc405a90cda9b933836ec0220bc9d34f92a16163c245cf621e79b0fd4a928760c842452b0c621050cd89e08c19eda05254f
+  languageName: node
+  linkType: hard
+
+"react-i18next@npm:^11.8.13":
   version: 11.11.1
   resolution: "react-i18next@npm:11.11.1"
   dependencies:
@@ -15936,7 +15949,7 @@ resolve@^2.0.0-next.3:
     prettier: 2.3.2
     react: 17.0.2
     react-dom: 17.0.2
-    react-i18next: 11.11.1
+    react-i18next: 11.11.2
     rimraf: 3.0.2
     sass: 1.35.2
     shell-quote: 1.7.2
